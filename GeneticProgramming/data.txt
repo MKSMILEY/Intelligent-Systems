@@ -1,0 +1,108 @@
+(((cos(cos((y - (cos (cos (y - (cos y))))) - (((x - x) - y) - y)))) - 
+  (cos((cos y) - ((y - (cos (cos (y - (cos y))))) - (((x - x) - y) - y))))) -
+    ((cos((((x - x) - y) - y) - ((y - (cos (cos (y - (cos y))))) - (((x - x) - y) - y)))) -
+       (((cos(((cosy) - 1) - (y - (cos(y - (cosy)))))) - (((x - x) - y) - ((x - x) - y))) - 
+         ((cos(cos(- y (cosy)))) - ((y - (cos(cos(y - (cosy))))) - (((x - x) - y) - y)))))))
+
+
+
+Done!
+(let
+ []
+ (-
+  (-
+   (Math/cos
+    (Math/cos
+     (-
+      (- y (Math/cos (Math/cos (- y (Math/cos y)))))
+      (- (- (- x x) y) y))))
+   (Math/cos
+    (-
+     (Math/cos y)
+     (-
+      (- y (Math/cos (Math/cos (- y (Math/cos y)))))
+      (- (- (- x x) y) y)))))
+  (-
+   (Math/cos
+    (-
+     (- (- (- x x) y) y)
+     (-
+      (- y (Math/cos (Math/cos (- y (Math/cos y)))))
+      (- (- (- x x) y) y))))
+   (-
+    (-
+     (Math/cos
+      (- (dec (Math/cos y)) (- y (Math/cos (- y (Math/cos y))))))
+     (- (- (- x x) y) (- (- x x) y)))
+    (-
+     (Math/cos (Math/cos (- y (Math/cos y))))
+     (-
+      (- y (Math/cos (Math/cos (- y (Math/cos y)))))
+      (- (- (- x x) y) y)))))))
+Error:  0.9789183505298908
+
+
+Done!
+(let
+ []
+ (+
+  (+ (sin y) (+ (Math/sin y) (+ (Math/sin y) y)))
+  (Math/sin (+ (Math/sin (- x 2.0)) y))))
+Error:  4.016908273006486
+
+(let
+ []
+ (((((6.0 * y) - x) - (sin(siny))) - (siny)) - (sin((6.0 * y) - x))))
+Error:  2.0581416217470396
+
+sin(x - 6y) - x + 6y - sin(y) - sin(sin(y))
+
+(let
+ []
+ (-
+  (- (- (- (* 6.0 y) x) (Math/sin (Math/sin y))) (Math/sin y))
+  (Math/sin (- (* 6.0 y) x))))
+Error:  2.0581416217470396
+
+
+
+Done!
+(let
+ []
+ (+
+  (Math/sin
+   (+
+    (+
+     (Math/sin (Math/sin (+ y (* x (inc (inc 5.0))))))
+     (Math/sin (+ (* x (inc 5.0)) (* 1.0 y))))
+    (Math/sin
+     (+
+      (* x (inc 5.0))
+      (+
+       (Math/sin (+ (* x (inc 5.0)) (* 1.0 y)))
+       (* (Math/sin y) (inc (inc 5.0))))))))
+  (+
+   (Math/sin
+    (Math/sin (Math/sin (Math/sin (+ y (* x (inc (inc 5.0))))))))
+   (+
+    (Math/sin
+     (+
+      (Math/sin (+ (* x (inc 5.0)) (* 1.0 y)))
+      (* (Math/sin y) (inc (inc 5.0)))))
+    (+
+     (Math/sin (inc (inc (* x (inc 5.0)))))
+     (+
+      (Math/sin (inc 5.0))
+      (+
+       (+ (Math/sin (+ (Math/cos 2.0) (* 1.0 y))) (Math/cos 2.0))
+       (+ (Math/sin y) (Math/sin y)))))))))
+Error:  4.247353654287688
+
+
+
+
+
+
+(def in-list1 '(0 1 1     0.5  -1    -1  1    -2  -1    -3   2    3   1   1.25 1.5  1.75 0    -0.25 -0.25 -0.5 -0.5 0.5  2    2    -2))
+(def in-list2 '(0 0 1     0.25 -1     0 -1    -1.5 1    -1.5 1.57 0.5 0.5 0.5  .5   0.5  1.57 1     -1    -0.5 0.5  0.5  3.14 7.85 7.85))
+(def out-list '(0 0 4.21 -1.23 -4.21  0 -4.21 -5   4.21 -5   5    2.4 2.4 0    -2.4 0    5    0     -4.08 -2.4 -2.4 -2.4 0    5    5))
